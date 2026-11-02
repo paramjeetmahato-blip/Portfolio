@@ -7,7 +7,7 @@
 
 :root {
     --bg: #122829;
-    --bg2: #c2c5d1;
+    --bg2: #162f94;
     --card: #e9ebf0;
 
     --white: #ffffff;
@@ -108,7 +108,7 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: clamp(2.5rem, 7vw, 4.7rem);
+    font-size: 40px;
     font-weight: 800;
     letter-spacing: -2px;
 }
@@ -127,7 +127,7 @@ h3 {
     min-height: 78px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
 
     padding-inline: max(24px, calc((100% - 1120px)/2));
 
@@ -260,7 +260,7 @@ h3 {
     border-radius: 12px;
 
     background: var(--gradient);
-    color: white;
+    color: rgb(228, 218, 218);
 
     font-weight: 700;
     border: 1px solid transparent;
@@ -537,7 +537,7 @@ h3 {
 .highlight-panel {
     background: linear-gradient(
         135deg,
-        rgba(168,85,247,.15),
+        rgba(222, 211, 233, 0.15),
         rgba(59,130,246,.10)
     );
 }
@@ -577,7 +577,7 @@ h3 {
 
 .skill-track {
     height: 9px;
-    background: #26314c;
+    background: #ced2da;
     border-radius: 20px;
     overflow: hidden;
 }
@@ -691,7 +691,7 @@ h3 {
 /* TIMELINE */
 
 .timeline {
-    max-width: 850px;
+    max-width: 900px;
     margin: auto;
     border-left: 2px solid var(--purple);
     padding-left: 28px;
@@ -699,7 +699,7 @@ h3 {
 
 .timeline-item {
     position: relative;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 .timeline-dot {
@@ -721,7 +721,7 @@ h3 {
     padding: 28px 20px;
     text-align: center;
 
-    background: #0c1120;
+    background: #0c1410;
     border-top: 1px solid var(--border);
 
     color: var(--muted);
